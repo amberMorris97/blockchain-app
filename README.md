@@ -7,3 +7,6 @@
 
 ### RUN IN DEV MODE:
 ###### **npm run dev** to concurrently run the front and backend
+
+### whats going on rn:
+###### React app template with redux, redux thunk, express, webpack/babel, webpack cli just gotta run npm install in root, backend and frontend directories.
