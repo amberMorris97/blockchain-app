@@ -65,24 +65,39 @@ body {
     background-position: 0% 50%;
   }
 }
+#header {
+	grid-area: header;
+	display: inline-grid;
+	grid-gap: 5em;
+	grid-template-columns: 1fr 1fr;
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(156, 127, 189, 0.5);
+  padding: 15px;
+  width: 100%;
+}
+#nav {
+	grid-gap: 0.5em;
+	display: inline-flex;
+}
 .intro-page h1 {
   grid-area: title;
   height: 1vh;
+}
+
+.app-intro, .org-form, .donate {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .app-intro {
   grid-area: intro;
   width: 50%;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.5)
 }
 .org-form {
   grid-area: suggestions;
-  background-color: rgba(255, 255, 255, 0.5)
-
 }
 .donate {
   grid-area: donate;
-  background-color: rgba(255, 255, 255, 0.5)
 }
 .blockchain-animation {
   grid-area: animation

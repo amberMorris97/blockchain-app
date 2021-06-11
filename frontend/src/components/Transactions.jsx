@@ -4,7 +4,7 @@ import Mining from './Mining.jsx';
 const Transactions = () => {
 
   return (
-    <div id="page-3">
+    <div name="transactions" id="page-3">
       <div className="transactions fullscreen">
         <h1>After You Make A Transaction</h1>
       </div>

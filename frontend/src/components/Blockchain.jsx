@@ -1,15 +1,12 @@
 import React from 'react'
-import { Spline } from 'react-spline'
-import SPLINE_SCENE from '../blockchainanime/scene';
 import Transactions from './Transactions.jsx';
 
 const Blockchain = () => {
 
   return (
     <div id="page-2">
-      <div className="blockchain-page fullscreen">
-      <h1>Blockchain</h1>
-      <Spline scene={SPLINE_SCENE} />
+      <div name="blockchain" className="blockchain-page fullscreen">
+      <p>So what are Blockchains anyway? Blockchains are databases filled with cryptographically secured information. For this example, we’re going to be taking a look into Bitcoin’s blockchain.</p>
       </div>
       <Transactions />
     </div>
