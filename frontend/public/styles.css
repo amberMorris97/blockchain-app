@@ -102,3 +102,13 @@ body {
 .blockchain-animation {
   grid-area: animation
 }
+.blockchain-page, .transactions {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.blockchain-page p {
+  width: 50vw;
+}
+.transactions p {
+	width: 50vw;
+}

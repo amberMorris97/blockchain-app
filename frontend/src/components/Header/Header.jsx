@@ -1,6 +1,8 @@
 import React from 'react';
 import NavBar from './NavBar.jsx';
 import { Link } from 'react-scroll';
+import { Spline } from 'react-spline';
+import SPLINE_SCENE from '../../blockchainanime/scene';
 
 const Header = () => {
 
@@ -13,7 +15,9 @@ const Header = () => {
       offset={0}
       duration={500}
       isDynamic={true}>
-      Understanding Blockchains
+      <span
+        className="blockchain-animation">      <Spline scene={SPLINE_SCENE} />
+      </span>
       </Link>
       <NavBar />
     </div>
