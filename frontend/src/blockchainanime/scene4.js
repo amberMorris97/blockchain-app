@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SPLINE_SCENE_TWO = {
+const SPLINE_SCENE_FOUR = {
   "asset": {
     "generator": "Khronos glTF Spline I/O v0.0.1",
     "version": "2.0"
@@ -26,23 +26,23 @@ const SPLINE_SCENE_TWO = {
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "E086FB51-BFBC-45BD-8E05-6F4B7C6FF748",
+          "uuid": "9801BBAF-7E95-4237-8907-FF3CCB56BA6E",
           "type": "scene"
         }
       }
     },
     {
-      "name": "Cube",
+      "name": "Cube 2",
       "translation": [
-        -473.33,
-        8.21,
-        48.9
+        141.22754318362524,
+        2079.999887904324,
+        98.55062657220329
       ],
       "rotation": [
         0,
-        0.17364817766693033,
+        -0.35836794954530027,
         0,
-        0.984807753012208
+        0.9335804264972017
       ],
       "scale": [
         1,
@@ -51,7 +51,7 @@ const SPLINE_SCENE_TWO = {
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "FDF4E810-DA82-4403-BAAF-40AE74EA2497",
+          "uuid": "02C687EF-F838-4717-9877-2F14C5CF96E0",
           "type": "mesh_3d",
           "visible": true,
           "interaction": 0,
@@ -81,68 +81,29 @@ const SPLINE_SCENE_TWO = {
       "mesh": 0
     },
     {
-      "name": "Default Camera",
-      "camera": 0,
+      "name": "Cube",
       "translation": [
-        36.66666666666581,
-        40.3549932936829,
-        999.9999999999984
-      ],
-      "rotation": [
-        -3.197442310920451e-17,
-        -2.842170943040401e-17,
-        -9.08767762814606e-34,
-        1
-      ],
-      "extensions": {
-        "SPE_node_3d": {
-          "uuid": "EBD997F5-F80B-4941-A22A-0AA5FEEB551B",
-          "type": "camera",
-          "visible": true,
-          "interaction": 1
-        }
-      },
-      "children": [
-        8
-      ]
-    },
-    {
-      "name": "Default Ambient Light",
-      "extensions": {
-        "KHR_lights_punctual": {
-          "light": 0
-        },
-        "SPE_node_3d": {
-          "uuid": "8AA1F59A-1659-4AE7-BDB1-97A252A179EC",
-          "type": "light",
-          "visible": true
-        }
-      }
-    },
-    {
-      "name": "Cube 2",
-      "translation": [
-        477.7075480200891,
-        9.486637854870395,
-        50.181634956367226
+        -81.35501174278303,
+        1842.4962388828635,
+        29.486442554300474
       ],
       "rotation": [
         0,
-        0.1736481776669303,
+        -0.1132032137679072,
         0,
-        0.984807753012208
+        0.9935718556765875
       ],
       "scale": [
+        0.9999999999999978,
         1,
-        1,
-        1
+        0.9999999999999978
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "B213A1EF-903E-4261-96A7-2605852FEAA7",
+          "uuid": "E228D726-0791-4DDD-84A6-E2D9B110AF5C",
           "type": "mesh_3d",
           "visible": true,
-          "interaction": 2,
+          "interaction": 1,
           "hiddenMatrix": [
             1,
             0,
@@ -169,121 +130,17 @@ const SPLINE_SCENE_TWO = {
       "mesh": 1
     },
     {
-      "name": "Helix",
+      "name": "Sphere 2",
       "translation": [
-        499.68799757388956,
-        -157.53678673303196,
-        -2165.5053858305077
-      ],
-      "rotation": [
-        0.07895680017031557,
-        -0.041582029763859024,
-        -0.7094472345068812,
-        0.6990861033936526
-      ],
-      "scale": [
-        -4.82825785181407,
-        8.912466172839368,
-        5.768088874780252
-      ],
-      "extensions": {
-        "SPE_node_3d": {
-          "uuid": "756FD968-A895-45CF-9638-04CC945E2649",
-          "type": "mesh_3d",
-          "visible": true,
-          "interaction": 3,
-          "hiddenMatrix": [
-            1.0000000000000004,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1.0000000000000004,
-            0,
-            -259.4692122538062,
-            162.93351137416622,
-            -58.53164990462193,
-            1
-          ],
-          "castShadow": true,
-          "receiveShadow": true,
-          "isCloner": false
-        }
-      },
-      "mesh": 2,
-      "children": [
-        9
-      ]
-    },
-    {
-      "name": "Helix copy",
-      "translation": [
-        23.381263722859103,
-        -156.2601354655272,
-        296.80639740227724
-      ],
-      "rotation": [
-        0.07895680017031566,
-        -0.041582029763859114,
-        -0.7094472345068811,
-        0.6990861033936526
-      ],
-      "scale": [
-        -4.828257851814069,
-        8.912466172839371,
-        5.768088874780252
-      ],
-      "extensions": {
-        "SPE_node_3d": {
-          "uuid": "D53F089A-30F9-448D-9145-03732E8F8758",
-          "type": "mesh_3d",
-          "visible": true,
-          "interaction": 4,
-          "hiddenMatrix": [
-            1.0000000000000004,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1.0000000000000004,
-            0,
-            -259.4692122538062,
-            162.93351137416622,
-            -58.53164990462193,
-            1
-          ],
-          "castShadow": true,
-          "receiveShadow": true,
-          "isCloner": false
-        }
-      },
-      "mesh": 3,
-      "children": [
-        10
-      ]
-    },
-    {
-      "name": "Cube 3",
-      "translation": [
-        107.66666666666725,
-        17.631644561187564,
-        50.21629416277602
+        198.33742903463678,
+        2085.999887904324,
+        9.400422850750608
       ],
       "rotation": [
         0,
-        0.17364817766693033,
         0,
-        0.984807753012208
+        0,
+        1
       ],
       "scale": [
         1,
@@ -292,10 +149,10 @@ const SPLINE_SCENE_TWO = {
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "48DA4047-2E2D-4CC8-AA74-7ABAB045F7AA",
+          "uuid": "199BAA8D-8783-48F9-BC55-E3CA7FADDE8C",
           "type": "mesh_3d",
           "visible": true,
-          "interaction": 5,
+          "interaction": 2,
           "hiddenMatrix": [
             1,
             0,
@@ -309,9 +166,107 @@ const SPLINE_SCENE_TWO = {
             0,
             1,
             0,
-            -107.66666666666725,
-            -8.145006706317169,
-            -0.03465920640881848,
+            0,
+            0,
+            0,
+            1
+          ],
+          "castShadow": true,
+          "receiveShadow": true,
+          "isCloner": false
+        }
+      },
+      "mesh": 2
+    },
+    {
+      "name": "Sphere",
+      "translation": [
+        198.33742903463678,
+        2077.999887904324,
+        7.9004228507506085
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "extensions": {
+        "SPE_node_3d": {
+          "uuid": "52B0FFD1-277B-4730-BB67-827F7165BCF6",
+          "type": "mesh_3d",
+          "visible": true,
+          "interaction": 3,
+          "hiddenMatrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "castShadow": true,
+          "receiveShadow": true,
+          "isCloner": false
+        }
+      },
+      "mesh": 3
+    },
+    {
+      "name": "Cylinder",
+      "translation": [
+        -323.66666666666663,
+        2080.0000000000005,
+        116
+      ],
+      "rotation": [
+        -0.05182670421104789,
+        0.13898239810987348,
+        0.007283203058840195,
+        0.9889109366871482
+      ],
+      "scale": [
+        0.9999999999999958,
+        0.9999999999999838,
+        0.9999999999999951
+      ],
+      "extensions": {
+        "SPE_node_3d": {
+          "uuid": "36E67F9D-BD56-4447-9327-1F70AA1E3E62",
+          "type": "mesh_3d",
+          "visible": true,
+          "interaction": 4,
+          "hiddenMatrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
             1
           ],
           "castShadow": true,
@@ -320,6 +275,45 @@ const SPLINE_SCENE_TWO = {
         }
       },
       "mesh": 4
+    },
+    {
+      "name": "Default Camera",
+      "camera": 0,
+      "translation": [
+        -90.00000315793861,
+        2106.6666869668147,
+        1000.000000000001
+      ],
+      "rotation": [
+        0,
+        -5.684341886080802e-17,
+        0,
+        1
+      ],
+      "extensions": {
+        "SPE_node_3d": {
+          "uuid": "53027C78-B91C-464A-B983-1C8F9CBF140B",
+          "type": "camera",
+          "visible": true,
+          "interaction": 5
+        }
+      },
+      "children": [
+        8
+      ]
+    },
+    {
+      "name": "Default Ambient Light",
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        },
+        "SPE_node_3d": {
+          "uuid": "F999FBAB-3CA7-4216-84F9-CD3F45CF8C8A",
+          "type": "light",
+          "visible": true
+        }
+      }
     },
     {
       "name": "Default Directional Light",
@@ -339,7 +333,7 @@ const SPLINE_SCENE_TWO = {
           "light": 1
         },
         "SPE_node_3d": {
-          "uuid": "3337C8D4-F8E5-4AC4-96C0-F31B3C4CF1C1",
+          "uuid": "BBD9AC68-FCB1-4C1C-B5E5-C2CF01513853",
           "type": "light",
           "visible": true,
           "interaction": -1,
@@ -363,118 +357,20 @@ const SPLINE_SCENE_TWO = {
           ]
         }
       }
-    },
-    {
-      "name": "Helix",
-      "translation": [
-        -155.30799786861115,
-        74.24999999999996,
-        63.43838456573528
-      ],
-      "rotation": [
-        0,
-        0.17364817766693033,
-        0,
-        0.9848077530122079
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "extensions": {
-        "SPE_node_3d": {
-          "uuid": "B55972D9-A5C0-4FB9-92AD-E4897D6CE10E",
-          "type": "mesh_3d",
-          "visible": true,
-          "interaction": 6,
-          "hiddenMatrix": [
-            -0.9396926207859086,
-            2.44516027421923e-18,
-            0.34202014332566866,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0.3420201433256687,
-            -8.899655578259845e-19,
-            0.9396926207859084,
-            0,
-            -166.51486095854568,
-            -74.24999999999999,
-            -6.711095631091135,
-            1.0000000000000002
-          ],
-          "castShadow": true,
-          "receiveShadow": true,
-          "isCloner": false
-        }
-      },
-      "mesh": 5
-    },
-    {
-      "name": "Helix",
-      "translation": [
-        -155.30799786861115,
-        74.24999999999996,
-        63.43838456573528
-      ],
-      "rotation": [
-        0,
-        0.17364817766693033,
-        0,
-        0.9848077530122079
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "extensions": {
-        "SPE_node_3d": {
-          "uuid": "C15A1239-B327-4D19-934A-932A3F90802C",
-          "type": "mesh_3d",
-          "visible": true,
-          "interaction": 7,
-          "hiddenMatrix": [
-            -0.9396926207859086,
-            2.44516027421923e-18,
-            0.34202014332566866,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0.3420201433256687,
-            -8.899655578259845e-19,
-            0.9396926207859084,
-            0,
-            -166.51486095854568,
-            -74.24999999999999,
-            -6.711095631091135,
-            1.0000000000000002
-          ],
-          "castShadow": true,
-          "receiveShadow": true,
-          "isCloner": false
-        }
-      },
-      "mesh": 6
     }
   ],
   "cameras": [
     {
       "type": "orthographic",
       "orthographic": {
-        "xmag": 350,
-        "ymag": 100,
+        "xmag": 375,
+        "ymag": 250,
         "zfar": 50000,
         "znear": -50000
       },
       "extensions": {
         "SPE_camera_options": {
-          "zoom": 0.25
+          "zoom": 0.5
         }
       }
     }
@@ -485,14 +381,14 @@ const SPLINE_SCENE_TWO = {
       "extensions": {
         "SPE_primitive": {
           "parameters": {
-            "width": 275,
+            "width": 200,
             "widthSegments": 1,
             "heightSegments": 1,
             "depthSegments": 1,
             "cornerRadius": 15,
             "cornerSegments": 8,
-            "height": 275,
-            "depth": 275
+            "height": 200,
+            "depth": 200
           },
           "type": "CubeGeometry"
         },
@@ -508,14 +404,14 @@ const SPLINE_SCENE_TWO = {
       "extensions": {
         "SPE_primitive": {
           "parameters": {
-            "width": 275,
+            "width": 24,
             "widthSegments": 1,
             "heightSegments": 1,
             "depthSegments": 1,
-            "cornerRadius": 15,
+            "cornerRadius": 0,
             "cornerSegments": 8,
-            "height": 275,
-            "depth": 275
+            "height": 25,
+            "depth": 25
           },
           "type": "CubeGeometry"
         },
@@ -531,19 +427,17 @@ const SPLINE_SCENE_TWO = {
       "extensions": {
         "SPE_primitive": {
           "parameters": {
-            "width": 8,
-            "revolutions": 1.5,
-            "segments": 40,
-            "pathRadius": 0.8,
-            "pathType": 0,
-            "pathSegments": 3,
-            "cornerRadius": 88,
-            "cornerSegments": 4,
-            "height": 15,
-            "depth": 9,
-            "radius": 4
+            "width": 26,
+            "widthSegments": 64,
+            "heightSegments": 64,
+            "phiStart": 0,
+            "phiLength": 6.283185307179586,
+            "thetaStart": 0,
+            "thetaLength": 3.141592653589793,
+            "height": 27,
+            "depth": 22
           },
-          "type": "HelixGeometry"
+          "type": "SphereGeometry"
         },
         "SPE_material": {
           "indices": [
@@ -557,19 +451,17 @@ const SPLINE_SCENE_TWO = {
       "extensions": {
         "SPE_primitive": {
           "parameters": {
-            "width": 8,
-            "revolutions": 1.5,
-            "segments": 40,
-            "pathRadius": 0.8,
-            "pathType": 0,
-            "pathSegments": 3,
-            "cornerRadius": 88,
-            "cornerSegments": 4,
-            "height": 15,
-            "depth": 9,
-            "radius": 4
+            "width": 26,
+            "widthSegments": 64,
+            "heightSegments": 64,
+            "phiStart": 0,
+            "phiLength": 6.283185307179586,
+            "thetaStart": 0,
+            "thetaLength": 3.141592653589793,
+            "height": 27,
+            "depth": 19
           },
-          "type": "HelixGeometry"
+          "type": "SphereGeometry"
         },
         "SPE_material": {
           "indices": [
@@ -583,72 +475,25 @@ const SPLINE_SCENE_TWO = {
       "extensions": {
         "SPE_primitive": {
           "parameters": {
-            "width": 275,
-            "widthSegments": 1,
+            "width": 200,
+            "radialSegments": 64,
             "heightSegments": 1,
-            "depthSegments": 1,
-            "cornerRadius": 15,
+            "openEnded": false,
+            "thetaStart": 0,
+            "thetaLength": 360,
+            "cornerRadius": 0,
             "cornerSegments": 8,
-            "height": 275,
-            "depth": 275
+            "hollow": 0,
+            "height": 200,
+            "depth": 200,
+            "radiusTop": 100,
+            "radiusBottom": 100
           },
-          "type": "CubeGeometry"
+          "type": "CylinderGeometry"
         },
         "SPE_material": {
           "indices": [
             4
-          ]
-        }
-      }
-    },
-    {
-      "primitives": [],
-      "extensions": {
-        "SPE_primitive": {
-          "parameters": {
-            "width": 7,
-            "revolutions": 1.5,
-            "segments": 40,
-            "pathRadius": 0.8,
-            "pathType": 0,
-            "pathSegments": 3,
-            "cornerRadius": 88,
-            "cornerSegments": 4,
-            "height": 15,
-            "depth": 9,
-            "radius": 3.5
-          },
-          "type": "HelixGeometry"
-        },
-        "SPE_material": {
-          "indices": [
-            5
-          ]
-        }
-      }
-    },
-    {
-      "primitives": [],
-      "extensions": {
-        "SPE_primitive": {
-          "parameters": {
-            "width": 7,
-            "revolutions": 1.5,
-            "segments": 40,
-            "pathRadius": 0.8,
-            "pathType": 0,
-            "pathSegments": 3,
-            "cornerRadius": 88,
-            "cornerSegments": 4,
-            "height": 15,
-            "depth": 9,
-            "radius": 3.5
-          },
-          "type": "HelixGeometry"
-        },
-        "SPE_material": {
-          "indices": [
-            6
           ]
         }
       }
@@ -664,14 +509,14 @@ const SPLINE_SCENE_TWO = {
         "KHR_materials_common": {
           "technique": "BLINN",
           "ambient": [
-            0.9137254901960784,
-            0.4392156862745098,
-            0.4392156862745098
+            0.26666666666666666,
+            0.5215686274509804,
+            0.7568627450980392
           ],
           "diffuse": [
-            0.9137254901960784,
-            0.4392156862745098,
-            0.4392156862745098
+            0.26666666666666666,
+            0.5215686274509804,
+            0.7568627450980392
           ],
           "specular": [
             0.06666666666666667,
@@ -710,340 +555,8 @@ const SPLINE_SCENE_TWO = {
                 "color": {
                   "name": "color",
                   "value": [
-                    0.9137254901960784,
-                    0.4392156862745098,
-                    0.4392156862745098
-                  ],
-                  "type": 6
-                }
-              }
-            },
-            {
-              "id": 1,
-              "type": "light",
-              "uniforms": {
-                "alpha": {
-                  "name": "alpha",
-                  "value": 1,
-                  "type": 1
-                },
-                "mode": {
-                  "name": "mode",
-                  "value": 0,
-                  "type": 1
-                }
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "",
-      "alphaMode": "BLEND",
-      "alphaCutoff": 1,
-      "doubleSided": false,
-      "extensions": {
-        "KHR_materials_common": {
-          "technique": "BLINN",
-          "ambient": [
-            0.9137254901960784,
-            0.4392156862745098,
-            0.4392156862745098
-          ],
-          "diffuse": [
-            0.9137254901960784,
-            0.4392156862745098,
-            0.4392156862745098
-          ],
-          "specular": [
-            0.06666666666666667,
-            0.06666666666666667,
-            0.06666666666666667
-          ],
-          "shininess": 30,
-          "emission": [
-            0,
-            0,
-            0
-          ]
-        },
-        "SPE_materials_options": {
-          "side": 0,
-          "wireframe": false,
-          "visible": true,
-          "shadingMode": 2
-        },
-        "SPE_materials_layers": {
-          "layers": [
-            {
-              "id": 0,
-              "type": "color",
-              "uniforms": {
-                "alpha": {
-                  "name": "alpha",
-                  "value": 1,
-                  "type": 1
-                },
-                "mode": {
-                  "name": "mode",
-                  "value": 0,
-                  "type": 1
-                },
-                "color": {
-                  "name": "color",
-                  "value": [
-                    0.8274509803921568,
-                    0.5529411764705883,
-                    0.9176470588235294
-                  ],
-                  "type": 6
-                }
-              }
-            },
-            {
-              "id": 1,
-              "type": "light",
-              "uniforms": {
-                "alpha": {
-                  "name": "alpha",
-                  "value": 1,
-                  "type": 1
-                },
-                "mode": {
-                  "name": "mode",
-                  "value": 0,
-                  "type": 1
-                }
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "",
-      "alphaMode": "BLEND",
-      "alphaCutoff": 1,
-      "doubleSided": false,
-      "extensions": {
-        "KHR_materials_common": {
-          "technique": "BLINN",
-          "ambient": [
-            0.34901960784313724,
-            0.34901960784313724,
-            0.34901960784313724
-          ],
-          "diffuse": [
-            0.34901960784313724,
-            0.34901960784313724,
-            0.34901960784313724
-          ],
-          "specular": [
-            0.06666666666666667,
-            0.06666666666666667,
-            0.06666666666666667
-          ],
-          "shininess": 30,
-          "emission": [
-            0,
-            0,
-            0
-          ]
-        },
-        "SPE_materials_options": {
-          "side": 0,
-          "wireframe": false,
-          "visible": true,
-          "shadingMode": 2
-        },
-        "SPE_materials_layers": {
-          "layers": [
-            {
-              "id": 0,
-              "type": "color",
-              "uniforms": {
-                "alpha": {
-                  "name": "alpha",
-                  "value": 1,
-                  "type": 1
-                },
-                "mode": {
-                  "name": "mode",
-                  "value": 0,
-                  "type": 1
-                },
-                "color": {
-                  "name": "color",
-                  "value": [
-                    0.34901960784313724,
-                    0.34901960784313724,
-                    0.34901960784313724
-                  ],
-                  "type": 6
-                }
-              }
-            },
-            {
-              "id": 1,
-              "type": "light",
-              "uniforms": {
-                "alpha": {
-                  "name": "alpha",
-                  "value": 1,
-                  "type": 1
-                },
-                "mode": {
-                  "name": "mode",
-                  "value": 0,
-                  "type": 1
-                }
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "",
-      "alphaMode": "BLEND",
-      "alphaCutoff": 1,
-      "doubleSided": false,
-      "extensions": {
-        "KHR_materials_common": {
-          "technique": "BLINN",
-          "ambient": [
-            0.34901960784313724,
-            0.34901960784313724,
-            0.34901960784313724
-          ],
-          "diffuse": [
-            0.34901960784313724,
-            0.34901960784313724,
-            0.34901960784313724
-          ],
-          "specular": [
-            0.06666666666666667,
-            0.06666666666666667,
-            0.06666666666666667
-          ],
-          "shininess": 30,
-          "emission": [
-            0,
-            0,
-            0
-          ]
-        },
-        "SPE_materials_options": {
-          "side": 0,
-          "wireframe": false,
-          "visible": true,
-          "shadingMode": 2
-        },
-        "SPE_materials_layers": {
-          "layers": [
-            {
-              "id": 0,
-              "type": "color",
-              "uniforms": {
-                "alpha": {
-                  "name": "alpha",
-                  "value": 1,
-                  "type": 1
-                },
-                "mode": {
-                  "name": "mode",
-                  "value": 0,
-                  "type": 1
-                },
-                "color": {
-                  "name": "color",
-                  "value": [
-                    0.34901960784313724,
-                    0.34901960784313724,
-                    0.34901960784313724
-                  ],
-                  "type": 6
-                }
-              }
-            },
-            {
-              "id": 1,
-              "type": "light",
-              "uniforms": {
-                "alpha": {
-                  "name": "alpha",
-                  "value": 1,
-                  "type": 1
-                },
-                "mode": {
-                  "name": "mode",
-                  "value": 0,
-                  "type": 1
-                }
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "",
-      "alphaMode": "BLEND",
-      "alphaCutoff": 1,
-      "doubleSided": false,
-      "extensions": {
-        "KHR_materials_common": {
-          "technique": "BLINN",
-          "ambient": [
-            0.9137254901960784,
-            0.4392156862745098,
-            0.4392156862745098
-          ],
-          "diffuse": [
-            0.9137254901960784,
-            0.4392156862745098,
-            0.4392156862745098
-          ],
-          "specular": [
-            0.06666666666666667,
-            0.06666666666666667,
-            0.06666666666666667
-          ],
-          "shininess": 30,
-          "emission": [
-            0,
-            0,
-            0
-          ]
-        },
-        "SPE_materials_options": {
-          "side": 0,
-          "wireframe": false,
-          "visible": true,
-          "shadingMode": 2
-        },
-        "SPE_materials_layers": {
-          "layers": [
-            {
-              "id": 0,
-              "type": "color",
-              "uniforms": {
-                "alpha": {
-                  "name": "alpha",
-                  "value": 1,
-                  "type": 1
-                },
-                "mode": {
-                  "name": "mode",
-                  "value": 0,
-                  "type": 1
-                },
-                "color": {
-                  "name": "color",
-                  "value": [
-                    0.35294117647058826,
-                    0.5607843137254902,
+                    0.26666666666666666,
+                    0.5215686274509804,
                     0.7568627450980392
                   ],
                   "type": 6
@@ -1235,6 +748,172 @@ const SPLINE_SCENE_TWO = {
           ]
         }
       }
+    },
+    {
+      "name": "",
+      "alphaMode": "BLEND",
+      "alphaCutoff": 1,
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_common": {
+          "technique": "BLINN",
+          "ambient": [
+            0.34901960784313724,
+            0.34901960784313724,
+            0.34901960784313724
+          ],
+          "diffuse": [
+            0.34901960784313724,
+            0.34901960784313724,
+            0.34901960784313724
+          ],
+          "specular": [
+            0.06666666666666667,
+            0.06666666666666667,
+            0.06666666666666667
+          ],
+          "shininess": 30,
+          "emission": [
+            0,
+            0,
+            0
+          ]
+        },
+        "SPE_materials_options": {
+          "side": 0,
+          "wireframe": false,
+          "visible": true,
+          "shadingMode": 2
+        },
+        "SPE_materials_layers": {
+          "layers": [
+            {
+              "id": 0,
+              "type": "color",
+              "uniforms": {
+                "alpha": {
+                  "name": "alpha",
+                  "value": 1,
+                  "type": 1
+                },
+                "mode": {
+                  "name": "mode",
+                  "value": 0,
+                  "type": 1
+                },
+                "color": {
+                  "name": "color",
+                  "value": [
+                    0.34901960784313724,
+                    0.34901960784313724,
+                    0.34901960784313724
+                  ],
+                  "type": 6
+                }
+              }
+            },
+            {
+              "id": 1,
+              "type": "light",
+              "uniforms": {
+                "alpha": {
+                  "name": "alpha",
+                  "value": 1,
+                  "type": 1
+                },
+                "mode": {
+                  "name": "mode",
+                  "value": 0,
+                  "type": 1
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "",
+      "alphaMode": "BLEND",
+      "alphaCutoff": 1,
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_common": {
+          "technique": "BLINN",
+          "ambient": [
+            0.12941176470588237,
+            0.34509803921568627,
+            0.6901960784313725
+          ],
+          "diffuse": [
+            0.12941176470588237,
+            0.34509803921568627,
+            0.6901960784313725
+          ],
+          "specular": [
+            0.06666666666666667,
+            0.06666666666666667,
+            0.06666666666666667
+          ],
+          "shininess": 30,
+          "emission": [
+            0,
+            0,
+            0
+          ]
+        },
+        "SPE_materials_options": {
+          "side": 0,
+          "wireframe": false,
+          "visible": true,
+          "shadingMode": 2
+        },
+        "SPE_materials_layers": {
+          "layers": [
+            {
+              "id": 0,
+              "type": "color",
+              "uniforms": {
+                "alpha": {
+                  "name": "alpha",
+                  "value": 1,
+                  "type": 1
+                },
+                "mode": {
+                  "name": "mode",
+                  "value": 0,
+                  "type": 1
+                },
+                "color": {
+                  "name": "color",
+                  "value": [
+                    0.12941176470588237,
+                    0.34509803921568627,
+                    0.6901960784313725
+                  ],
+                  "type": 6
+                }
+              }
+            },
+            {
+              "id": 1,
+              "type": "light",
+              "uniforms": {
+                "alpha": {
+                  "name": "alpha",
+                  "value": 1,
+                  "type": 1
+                },
+                "mode": {
+                  "name": "mode",
+                  "value": 0,
+                  "type": 1
+                }
+              }
+            }
+          ]
+        }
+      }
     }
   ],
   "extensions": {
@@ -1242,29 +921,29 @@ const SPLINE_SCENE_TWO = {
       "generatorFormat": 1,
       "useOrbitControls": false,
       "bgColor": [
-        0.09803921568627451,
-        0.09803921568627451,
-        0.09803921568627451
+        1,
+        1,
+        1
       ],
       "bgAlpha": 0,
       "orbitDamped": true,
       "orbitTarget": [
-        36.66666666666587,
-        40.35499329368284,
-        -1.4779288903810084e-12
+        -90.0000031579385,
+        2106.6666869668147,
+        1.0231815394945443e-12
       ],
       "cameraType": "OrthographicCamera",
       "cameraRotate": false,
       "cameraPan": false,
       "cameraZoom": false,
       "viewMode": 2,
-      "viewWidth": 350,
-      "viewHeight": 100,
-      "quality": "default"
+      "viewWidth": 375,
+      "viewHeight": 250,
+      "quality": "low"
     },
     "SPE_scene_options": {
       "camera": {
-        "mainCameraIndex": 2
+        "mainCameraIndex": 6
       },
       "postProcessing": {
         "enabled": false,
@@ -1342,11 +1021,85 @@ const SPLINE_SCENE_TWO = {
     "SPE_interactions": {
       "interactions": [
         {
-          "uuid": "3FA39BA6-6C21-4C87-84B4-3B4354B95A6E",
+          "uuid": "2AF1C161-CC25-4B67-9465-7BAC473A86EF",
+          "selectedState": 1,
+          "states": [
+            "DF8F3273-A3A8-4C46-B8B1-B8C9036A828D",
+            "F2331927-D45D-4B75-98C5-09BE398F8456"
+          ],
+          "events": [
+            {
+              "type": 7,
+              "ui": {
+                "isCollapsed": false
+              },
+              "targets": [
+                {
+                  "easing": 4,
+                  "duration": 1000,
+                  "delay": 0,
+                  "cubicControls": [
+                    0.5,
+                    0.05,
+                    0.1,
+                    0.3
+                  ],
+                  "springParameters": {
+                    "mass": 1,
+                    "stiffness": 80,
+                    "damping": 10,
+                    "velocity": 0
+                  },
+                  "object": "02C687EF-F838-4717-9877-2F14C5CF96E0",
+                  "state": "F2331927-D45D-4B75-98C5-09BE398F8456"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "uuid": "D2C0AFEC-6237-4101-933F-0424F0C8645D",
+          "selectedState": 2,
+          "states": [
+            "646AF2E6-4214-4238-B6B7-4D05A41E066F",
+            "8F1109A2-2AC3-4858-96B1-6F1173CCDB70",
+            "42A8CC40-B99C-4D6D-9F94-CE5DF61F45CB"
+          ],
+          "events": [
+            {
+              "type": 1,
+              "ui": {
+                "isCollapsed": false
+              },
+              "targets": [
+                {
+                  "easing": 4,
+                  "duration": 3000,
+                  "delay": 0,
+                  "cubicControls": [
+                    0.5,
+                    0.05,
+                    0.1,
+                    0.3
+                  ],
+                  "springParameters": {
+                    "mass": 1,
+                    "stiffness": 80,
+                    "damping": 10,
+                    "velocity": 0
+                  },
+                  "object": "E228D726-0791-4DDD-84A6-E2D9B110AF5C",
+                  "state": "42A8CC40-B99C-4D6D-9F94-CE5DF61F45CB"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "uuid": "9154C60E-8BE7-4A44-BF02-1E357829D2CD",
           "selectedState": 0,
           "states": [
-            "4989E70A-12F4-49A4-A02E-74BE0F56DF1D",
-            "1039FB2B-2C03-49A0-B0DF-2813E077F143"
+            "B8AC8B17-A5A8-4E56-8A01-BBE477C6B089"
           ],
           "events": [
             {
@@ -1356,7 +1109,7 @@ const SPLINE_SCENE_TWO = {
               },
               "targets": [
                 {
-                  "easing": 0,
+                  "easing": 2,
                   "duration": 3000,
                   "delay": 0,
                   "cubicControls": [
@@ -1371,12 +1124,13 @@ const SPLINE_SCENE_TWO = {
                     "damping": 10,
                     "velocity": 0
                   },
-                  "object": "FDF4E810-DA82-4403-BAAF-40AE74EA2497",
-                  "state": "1039FB2B-2C03-49A0-B0DF-2813E077F143"
+                  "cycle": true,
+                  "object": "199BAA8D-8783-48F9-BC55-E3CA7FADDE8C",
+                  "state": "B8AC8B17-A5A8-4E56-8A01-BBE477C6B089"
                 },
                 {
-                  "easing": 0,
-                  "duration": 3000,
+                  "easing": 4,
+                  "duration": 1000,
                   "delay": 0,
                   "cubicControls": [
                     0.5,
@@ -1389,60 +1143,19 @@ const SPLINE_SCENE_TWO = {
                     "stiffness": 80,
                     "damping": 10,
                     "velocity": 0
-                  },
-                  "object": "48DA4047-2E2D-4CC8-AA74-7ABAB045F7AA"
-                },
-                {
-                  "easing": 0,
-                  "duration": 3000,
-                  "delay": 3000,
-                  "cubicControls": [
-                    0.5,
-                    0.05,
-                    0.1,
-                    0.3
-                  ],
-                  "springParameters": {
-                    "mass": 1,
-                    "stiffness": 80,
-                    "damping": 10,
-                    "velocity": 0
-                  },
-                  "object": "B213A1EF-903E-4261-96A7-2605852FEAA7",
-                  "state": "949D5D05-20D9-47B4-BA13-9B6C28ABBE4C"
+                  }
                 }
               ]
             }
           ]
         },
         {
-          "uuid": "C84493DA-F6BD-453A-9398-ECE9BEA6C48C"
-        },
-        {
-          "uuid": "7FE29BE2-424D-46E4-AD0B-20F15E129B3A",
-          "selectedState": 1,
+          "uuid": "4CF3432F-1EDD-4D56-9A11-52D4D76E85EE",
+          "selectedState": 2,
           "states": [
-            "E83F863F-7FF8-4545-A79D-C0EE148DA621",
-            "949D5D05-20D9-47B4-BA13-9B6C28ABBE4C"
-          ]
-        },
-        {
-          "uuid": "B5FC37DE-639B-4126-8E69-A23F72A5C1A0",
-          "selectedState": 1,
-          "states": [
-            "752B2718-3CF9-443B-AB31-63D5097275EB",
-            "A578F86C-5133-472F-9656-8148D8DB108B"
-          ]
-        },
-        {
-          "uuid": "CE710DCC-7FE9-4C54-AE7C-228F02D477DA"
-        },
-        {
-          "uuid": "AB5D78C5-AC9E-4439-8AAC-41F9A3B33711",
-          "selectedState": 1,
-          "states": [
-            "3DC877F7-79D3-435A-95E7-59072B25D3CB",
-            "3F7046A4-144A-4978-AC85-5E2A5A76B17F"
+            "213A18CE-059F-41AD-91AA-F36BF8C47FBA",
+            "96922D9A-55EA-470A-AF1E-16872A596218",
+            "C49C887D-1CFE-49D7-BEB0-66F546AE6A01"
           ],
           "events": [
             {
@@ -1452,8 +1165,8 @@ const SPLINE_SCENE_TWO = {
               },
               "targets": [
                 {
-                  "easing": 0,
-                  "duration": 2000,
+                  "easing": 2,
+                  "duration": 3000,
                   "delay": 0,
                   "cubicControls": [
                     0.5,
@@ -1467,12 +1180,13 @@ const SPLINE_SCENE_TWO = {
                     "damping": 10,
                     "velocity": 0
                   },
-                  "object": "48DA4047-2E2D-4CC8-AA74-7ABAB045F7AA",
-                  "state": "3F7046A4-144A-4978-AC85-5E2A5A76B17F"
+                  "repeat": true,
+                  "object": "52B0FFD1-277B-4730-BB67-827F7165BCF6",
+                  "state": "C49C887D-1CFE-49D7-BEB0-66F546AE6A01"
                 },
                 {
-                  "easing": 0,
-                  "duration": 2000,
+                  "easing": 4,
+                  "duration": 3000,
                   "delay": 0,
                   "cubicControls": [
                     0.5,
@@ -1486,53 +1200,69 @@ const SPLINE_SCENE_TWO = {
                     "damping": 10,
                     "velocity": 0
                   },
-                  "object": "756FD968-A895-45CF-9638-04CC945E2649",
-                  "state": "A578F86C-5133-472F-9656-8148D8DB108B"
-                },
-                {
-                  "easing": 0,
-                  "duration": 2000,
-                  "delay": 1000,
-                  "cubicControls": [
-                    0.5,
-                    0.05,
-                    0.1,
-                    0.3
-                  ],
-                  "springParameters": {
-                    "mass": 1,
-                    "stiffness": 80,
-                    "damping": 10,
-                    "velocity": 0
-                  },
-                  "object": "B213A1EF-903E-4261-96A7-2605852FEAA7",
-                  "state": "949D5D05-20D9-47B4-BA13-9B6C28ABBE4C"
+                  "repeat": true,
+                  "object": "E228D726-0791-4DDD-84A6-E2D9B110AF5C",
+                  "state": "42A8CC40-B99C-4D6D-9F94-CE5DF61F45CB"
                 }
               ]
             }
           ]
         },
         {
-          "uuid": "BA796E5A-99F7-4A99-A8B7-241795912144"
+          "uuid": "A6804A41-91B2-4D6A-B1F1-CBD3C7294A5A",
+          "selectedState": 1,
+          "states": [
+            "04EC176C-3B5F-4579-8487-B0D7F46E6FD4",
+            "7AD0A90C-B990-4036-B98C-CC66D115FDB8"
+          ],
+          "events": [
+            {
+              "type": 7,
+              "ui": {
+                "isCollapsed": false
+              },
+              "targets": [
+                {
+                  "easing": 4,
+                  "duration": 1000,
+                  "delay": 0,
+                  "cubicControls": [
+                    0.5,
+                    0.05,
+                    0.1,
+                    0.3
+                  ],
+                  "springParameters": {
+                    "mass": 1,
+                    "stiffness": 80,
+                    "damping": 10,
+                    "velocity": 0
+                  },
+                  "object": "36E67F9D-BD56-4447-9327-1F70AA1E3E62",
+                  "state": "7AD0A90C-B990-4036-B98C-CC66D115FDB8"
+                }
+              ]
+            }
+          ]
         },
         {
-          "uuid": "66026B35-E8A9-4DED-B9B9-AD64967AE0C2"
+          "uuid": "50D77C2C-2D16-4331-8B84-8D1B59578386"
         }
       ]
     },
     "SPE_interaction_states": {
       "states": {
-        "4989E70A-12F4-49A4-A02E-74BE0F56DF1D": {
-          "uuid": "4989E70A-12F4-49A4-A02E-74BE0F56DF1D",
+        "DF8F3273-A3A8-4C46-B8B1-B8C9036A828D": {
+          "uuid": "DF8F3273-A3A8-4C46-B8B1-B8C9036A828D",
           "name": "Base State",
           "position": [
-            -473.33,
-            8.21,
-            48.9
+            141.22754318362524,
+            2079.999887904324,
+            98.55062657220329
           ],
           "rotation": [
             0,
-            0.3490658503988659,
+            -0.7330382858376184,
             0,
             "XYZ"
           ],
@@ -1560,9 +1290,9 @@ const SPLINE_SCENE_TWO = {
             1
           ],
           "geometry": {
-            "width": 275,
-            "height": 275,
-            "depth": 275
+            "width": 200,
+            "height": 200,
+            "depth": 200
           },
           "material": {
             "layersList": [
@@ -1578,7 +1308,7 @@ const SPLINE_SCENE_TWO = {
                     "value": 0
                   },
                   "f0_color": {
-                    "value": 15298672
+                    "value": 4490689
                   }
                 }
               },
@@ -1598,17 +1328,17 @@ const SPLINE_SCENE_TWO = {
             ]
           }
         },
-        "1039FB2B-2C03-49A0-B0DF-2813E077F143": {
-          "uuid": "1039FB2B-2C03-49A0-B0DF-2813E077F143",
+        "F2331927-D45D-4B75-98C5-09BE398F8456": {
+          "uuid": "F2331927-D45D-4B75-98C5-09BE398F8456",
           "name": "State 1",
           "position": [
-            -473.33333333333456,
-            8.20998658736562,
-            48.94285039140962
+            141.22754318362524,
+            2079.999887904324,
+            98.55062657220329
           ],
           "rotation": [
             0,
-            0.3490658503988659,
+            -0.7330382858376184,
             0,
             "XYZ"
           ],
@@ -1636,9 +1366,9 @@ const SPLINE_SCENE_TWO = {
             1
           ],
           "geometry": {
-            "width": 275,
-            "height": 275,
-            "depth": 275
+            "width": 200,
+            "height": 200,
+            "depth": 200
           },
           "material": {
             "layersList": [
@@ -1654,7 +1384,7 @@ const SPLINE_SCENE_TWO = {
                     "value": 0
                   },
                   "f0_color": {
-                    "value": 15298672
+                    "value": 4490689
                   }
                 }
               },
@@ -1674,24 +1404,24 @@ const SPLINE_SCENE_TWO = {
             ]
           }
         },
-        "E83F863F-7FF8-4545-A79D-C0EE148DA621": {
-          "uuid": "E83F863F-7FF8-4545-A79D-C0EE148DA621",
+        "646AF2E6-4214-4238-B6B7-4D05A41E066F": {
+          "uuid": "646AF2E6-4214-4238-B6B7-4D05A41E066F",
           "name": "Base State",
           "position": [
-            453.99999999999886,
-            410.0649798810485,
-            50.18163495636722
+            -303.3550117427243,
+            2028.496238882819,
+            5.607768516905665
           ],
           "rotation": [
             0,
-            0.3490658503988659,
+            -0.2268928027592638,
             0,
             "XYZ"
           ],
           "scale": [
+            0.9999999999999978,
             1,
-            1,
-            1
+            0.9999999999999978
           ],
           "hiddenMatrix": [
             1,
@@ -1712,161 +1442,9 @@ const SPLINE_SCENE_TWO = {
             1
           ],
           "geometry": {
-            "width": 275,
-            "height": 275,
-            "depth": 275
-          },
-          "material": {
-            "layersList": [
-              {
-                "id": 0,
-                "type": "color",
-                "defines": {},
-                "uniforms": {
-                  "f0_alpha": {
-                    "value": 1
-                  },
-                  "f0_mode": {
-                    "value": 0
-                  },
-                  "f0_color": {
-                    "value": 13864426
-                  }
-                }
-              },
-              {
-                "id": 1,
-                "type": "light",
-                "defines": {},
-                "uniforms": {
-                  "f1_alpha": {
-                    "value": 1
-                  },
-                  "f1_mode": {
-                    "value": 0
-                  }
-                }
-              }
-            ]
-          }
-        },
-        "949D5D05-20D9-47B4-BA13-9B6C28ABBE4C": {
-          "uuid": "949D5D05-20D9-47B4-BA13-9B6C28ABBE4C",
-          "name": "State 1",
-          "position": [
-            477.7075480200891,
-            9.486637854870395,
-            50.181634956367226
-          ],
-          "rotation": [
-            0,
-            0.34906585039886584,
-            0,
-            "XYZ"
-          ],
-          "scale": [
-            1,
-            1,
-            1
-          ],
-          "hiddenMatrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1
-          ],
-          "geometry": {
-            "width": 275,
-            "height": 275,
-            "depth": 275
-          },
-          "material": {
-            "layersList": [
-              {
-                "id": 0,
-                "type": "color",
-                "defines": {},
-                "uniforms": {
-                  "f0_alpha": {
-                    "value": 1
-                  },
-                  "f0_mode": {
-                    "value": 0
-                  },
-                  "f0_color": {
-                    "value": 13864426
-                  }
-                }
-              },
-              {
-                "id": 1,
-                "type": "light",
-                "defines": {},
-                "uniforms": {
-                  "f1_alpha": {
-                    "value": 1
-                  },
-                  "f1_mode": {
-                    "value": 0
-                  }
-                }
-              }
-            ]
-          }
-        },
-        "752B2718-3CF9-443B-AB31-63D5097275EB": {
-          "uuid": "752B2718-3CF9-443B-AB31-63D5097275EB",
-          "name": "Base State",
-          "position": [
-            487.71459705619503,
-            233.01651580197645,
-            -2147.237161933767
-          ],
-          "rotation": [
-            0.052179068732999316,
-            -0.1710023911672838,
-            -1.5810347207574522,
-            "XYZ"
-          ],
-          "scale": [
-            -4.828257851814069,
-            8.912466172839368,
-            5.768088874780252
-          ],
-          "hiddenMatrix": [
-            1.0000000000000004,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1.0000000000000004,
-            0,
-            -259.4692122538062,
-            162.93351137416622,
-            -58.53164990462193,
-            1
-          ],
-          "geometry": {
-            "width": 8,
-            "height": 15,
-            "depth": 9
+            "width": 24,
+            "height": 25,
+            "depth": 25
           },
           "material": {
             "layersList": [
@@ -1902,27 +1480,27 @@ const SPLINE_SCENE_TWO = {
             ]
           }
         },
-        "A578F86C-5133-472F-9656-8148D8DB108B": {
-          "uuid": "A578F86C-5133-472F-9656-8148D8DB108B",
+        "8F1109A2-2AC3-4858-96B1-6F1173CCDB70": {
+          "uuid": "8F1109A2-2AC3-4858-96B1-6F1173CCDB70",
           "name": "State 1",
           "position": [
-            499.68799757388956,
-            -157.53678673303196,
-            -2165.5053858305077
+            -113.3550117427182,
+            2087.496238882819,
+            49.47272483076423
           ],
           "rotation": [
-            0.05217906873299933,
-            -0.1710023911672837,
-            -1.5810347207574522,
+            0,
+            -0.2268928027592638,
+            0,
             "XYZ"
           ],
           "scale": [
-            -4.82825785181407,
-            8.912466172839368,
-            5.768088874780252
+            0.9999999999999978,
+            1,
+            0.9999999999999978
           ],
           "hiddenMatrix": [
-            1.0000000000000004,
+            1,
             0,
             0,
             0,
@@ -1932,17 +1510,17 @@ const SPLINE_SCENE_TWO = {
             0,
             0,
             0,
-            1.0000000000000004,
+            1,
             0,
-            -259.4692122538062,
-            162.93351137416622,
-            -58.53164990462193,
+            0,
+            0,
+            0,
             1
           ],
           "geometry": {
-            "width": 8,
-            "height": 15,
-            "depth": 9
+            "width": 24,
+            "height": 25,
+            "depth": 25
           },
           "material": {
             "layersList": [
@@ -1978,24 +1556,24 @@ const SPLINE_SCENE_TWO = {
             ]
           }
         },
-        "3DC877F7-79D3-435A-95E7-59072B25D3CB": {
-          "uuid": "3DC877F7-79D3-435A-95E7-59072B25D3CB",
-          "name": "Base State",
+        "42A8CC40-B99C-4D6D-9F94-CE5DF61F45CB": {
+          "uuid": "42A8CC40-B99C-4D6D-9F94-CE5DF61F45CB",
+          "name": "State 2",
           "position": [
-            68.33333333333263,
-            567.2797044982406,
-            50.21629416277602
+            -81.35501174278303,
+            1842.4962388828635,
+            29.486442554300474
           ],
           "rotation": [
             0,
-            0.3490658503988659,
+            -0.2268928027592638,
             0,
             "XYZ"
           ],
           "scale": [
+            0.9999999999999978,
             1,
-            1,
-            1
+            0.9999999999999978
           ],
           "hiddenMatrix": [
             1,
@@ -2010,15 +1588,15 @@ const SPLINE_SCENE_TWO = {
             0,
             1,
             0,
-            -107.66666666666725,
-            -8.145006706317169,
-            -0.03465920640881848,
+            0,
+            0,
+            0,
             1
           ],
           "geometry": {
-            "width": 275,
-            "height": 275,
-            "depth": 275
+            "width": 24,
+            "height": 25,
+            "depth": 25
           },
           "material": {
             "layersList": [
@@ -2034,7 +1612,7 @@ const SPLINE_SCENE_TWO = {
                     "value": 0
                   },
                   "f0_color": {
-                    "value": 5935041
+                    "value": 5855577
                   }
                 }
               },
@@ -2054,17 +1632,17 @@ const SPLINE_SCENE_TWO = {
             ]
           }
         },
-        "3F7046A4-144A-4978-AC85-5E2A5A76B17F": {
-          "uuid": "3F7046A4-144A-4978-AC85-5E2A5A76B17F",
-          "name": "State 1",
+        "B8AC8B17-A5A8-4E56-8A01-BBE477C6B089": {
+          "uuid": "B8AC8B17-A5A8-4E56-8A01-BBE477C6B089",
+          "name": "State 2",
           "position": [
-            107.66666666666725,
-            17.631644561187564,
-            50.21629416277602
+            198.33742903463678,
+            2085.999887904324,
+            9.400422850750608
           ],
           "rotation": [
             0,
-            0.3490658503988659,
+            0,
             0,
             "XYZ"
           ],
@@ -2086,15 +1664,15 @@ const SPLINE_SCENE_TWO = {
             0,
             1,
             0,
-            -107.66666666666725,
-            -8.145006706317169,
-            -0.03465920640881848,
+            0,
+            0,
+            0,
             1
           ],
           "geometry": {
-            "width": 275,
-            "height": 275,
-            "depth": 275
+            "width": 26,
+            "height": 27,
+            "depth": 22
           },
           "material": {
             "layersList": [
@@ -2110,7 +1688,387 @@ const SPLINE_SCENE_TWO = {
                     "value": 0
                   },
                   "f0_color": {
-                    "value": 5935041
+                    "value": 5855577
+                  }
+                }
+              },
+              {
+                "id": 1,
+                "type": "light",
+                "defines": {},
+                "uniforms": {
+                  "f1_alpha": {
+                    "value": 1
+                  },
+                  "f1_mode": {
+                    "value": 0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "213A18CE-059F-41AD-91AA-F36BF8C47FBA": {
+          "uuid": "213A18CE-059F-41AD-91AA-F36BF8C47FBA",
+          "name": "Base State",
+          "position": [
+            -310.66680838902505,
+            2033.5,
+            11
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "hiddenMatrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "width": 26,
+            "height": 27,
+            "depth": 22
+          },
+          "material": {
+            "layersList": [
+              {
+                "id": 0,
+                "type": "color",
+                "defines": {},
+                "uniforms": {
+                  "f0_alpha": {
+                    "value": 1
+                  },
+                  "f0_mode": {
+                    "value": 0
+                  },
+                  "f0_color": {
+                    "value": 5855577
+                  }
+                }
+              },
+              {
+                "id": 1,
+                "type": "light",
+                "defines": {},
+                "uniforms": {
+                  "f1_alpha": {
+                    "value": 1
+                  },
+                  "f1_mode": {
+                    "value": 0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "96922D9A-55EA-470A-AF1E-16872A596218": {
+          "uuid": "96922D9A-55EA-470A-AF1E-16872A596218",
+          "name": "State 1",
+          "position": [
+            -112.54775442594307,
+            2084.999887904324,
+            9.400422850750608
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "hiddenMatrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "width": 26,
+            "height": 27,
+            "depth": 22
+          },
+          "material": {
+            "layersList": [
+              {
+                "id": 0,
+                "type": "color",
+                "defines": {},
+                "uniforms": {
+                  "f0_alpha": {
+                    "value": 1
+                  },
+                  "f0_mode": {
+                    "value": 0
+                  },
+                  "f0_color": {
+                    "value": 5855577
+                  }
+                }
+              },
+              {
+                "id": 1,
+                "type": "light",
+                "defines": {},
+                "uniforms": {
+                  "f1_alpha": {
+                    "value": 1
+                  },
+                  "f1_mode": {
+                    "value": 0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "C49C887D-1CFE-49D7-BEB0-66F546AE6A01": {
+          "uuid": "C49C887D-1CFE-49D7-BEB0-66F546AE6A01",
+          "name": "State 2",
+          "position": [
+            198.33742903463678,
+            2077.999887904324,
+            7.9004228507506085
+          ],
+          "rotation": [
+            0,
+            0,
+            0,
+            "XYZ"
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "hiddenMatrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "width": 26,
+            "height": 27,
+            "depth": 19
+          },
+          "material": {
+            "layersList": [
+              {
+                "id": 0,
+                "type": "color",
+                "defines": {},
+                "uniforms": {
+                  "f0_alpha": {
+                    "value": 1
+                  },
+                  "f0_mode": {
+                    "value": 0
+                  },
+                  "f0_color": {
+                    "value": 5855577
+                  }
+                }
+              },
+              {
+                "id": 1,
+                "type": "light",
+                "defines": {},
+                "uniforms": {
+                  "f1_alpha": {
+                    "value": 1
+                  },
+                  "f1_mode": {
+                    "value": 0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "04EC176C-3B5F-4579-8487-B0D7F46E6FD4": {
+          "uuid": "04EC176C-3B5F-4579-8487-B0D7F46E6FD4",
+          "name": "Base State",
+          "position": [
+            -323.66666666666663,
+            2080.0000000000005,
+            116
+          ],
+          "rotation": [
+            -0.10890725237150245,
+            0.2776823291772718,
+            0.02996296977131436,
+            "XYZ"
+          ],
+          "scale": [
+            0.9999999999999958,
+            0.9999999999999838,
+            0.9999999999999951
+          ],
+          "hiddenMatrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "width": 200,
+            "height": 200,
+            "depth": 200
+          },
+          "material": {
+            "layersList": [
+              {
+                "id": 0,
+                "type": "color",
+                "defines": {},
+                "uniforms": {
+                  "f0_alpha": {
+                    "value": 1
+                  },
+                  "f0_mode": {
+                    "value": 0
+                  },
+                  "f0_color": {
+                    "value": 2185392
+                  }
+                }
+              },
+              {
+                "id": 1,
+                "type": "light",
+                "defines": {},
+                "uniforms": {
+                  "f1_alpha": {
+                    "value": 1
+                  },
+                  "f1_mode": {
+                    "value": 0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "7AD0A90C-B990-4036-B98C-CC66D115FDB8": {
+          "uuid": "7AD0A90C-B990-4036-B98C-CC66D115FDB8",
+          "name": "State 1",
+          "position": [
+            -323.66666666666663,
+            2080.0000000000005,
+            116
+          ],
+          "rotation": [
+            -0.10890725237150245,
+            0.2776823291772718,
+            0.02996296977131436,
+            "XYZ"
+          ],
+          "scale": [
+            0.9999999999999958,
+            0.9999999999999838,
+            0.9999999999999951
+          ],
+          "hiddenMatrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "width": 200,
+            "height": 200,
+            "depth": 200
+          },
+          "material": {
+            "layersList": [
+              {
+                "id": 0,
+                "type": "color",
+                "defines": {},
+                "uniforms": {
+                  "f0_alpha": {
+                    "value": 1
+                  },
+                  "f0_mode": {
+                    "value": 0
+                  },
+                  "f0_color": {
+                    "value": 2185392
                   }
                 }
               },
@@ -2193,5 +2151,4 @@ const SPLINE_SCENE_TWO = {
     "KHR_materials_common"
   ]
 }
-
-export default SPLINE_SCENE_TWO;
+export default SPLINE_SCENE_FOUR;

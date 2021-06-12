@@ -38,7 +38,7 @@ body {
 	margin: auto;
 }
 .fullscreen {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 .intro-page {
@@ -74,7 +74,7 @@ body {
   z-index: 1;
   background-color: rgba(156, 127, 189, 0.5);
   padding: 15px;
-  width: 100%;
+  width: 100vw;
 }
 #nav {
 	grid-gap: 0.5em;
@@ -102,13 +102,47 @@ body {
 .blockchain-animation {
   grid-area: animation
 }
-.blockchain-page, .transactions {
+.blockchain-page,
+  .transactions,
+  .mining-page,
+  .newBlock-page {
   display: inline-flex;
   flex-wrap: wrap;
 }
-.blockchain-page p {
+.blockchain-page p,
+.transactions p,
+.mining-page p,
+.newBlock-page p {
   width: 50vw;
 }
-.transactions p {
-	width: 50vw;
+
+@media only screen and (max-width: 600px) {
+  #header {
+    display: none;
+  }
+  canvas {
+  	display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #header {
+
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
