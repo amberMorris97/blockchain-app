@@ -31,8 +31,7 @@ const SPLINE_SCENE_THREE = {
         13,
         14,
         15,
-        16,
-        17
+        16
       ],
       "extensions": {
         "SPE_node_3d": {
@@ -140,10 +139,10 @@ const SPLINE_SCENE_THREE = {
       "mesh": 1
     },
     {
-      "name": "Sphere 4",
+      "name": "Sphere 5",
       "translation": [
-        -9.613157595802193,
-        333.49999999999994,
+        -199.31188175013676,
+        326.5,
         17
       ],
       "rotation": [
@@ -159,7 +158,7 @@ const SPLINE_SCENE_THREE = {
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "5ACC62F3-4D23-4560-9AEC-CFDE67B3770D",
+          "uuid": "B896C14D-1883-4D18-A6D3-2A8688F73F5A",
           "type": "mesh_3d",
           "visible": true,
           "interaction": 2,
@@ -189,10 +188,10 @@ const SPLINE_SCENE_THREE = {
       "mesh": 2
     },
     {
-      "name": "Sphere 5",
+      "name": "Sphere 6",
       "translation": [
-        -199.31188175013676,
-        326.5,
+        -190.1489615580661,
+        333.49999999999994,
         17
       ],
       "rotation": [
@@ -208,7 +207,7 @@ const SPLINE_SCENE_THREE = {
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "B896C14D-1883-4D18-A6D3-2A8688F73F5A",
+          "uuid": "F0411080-4A4F-410E-B1EC-0FF779129BC5",
           "type": "mesh_3d",
           "visible": true,
           "interaction": 3,
@@ -238,10 +237,10 @@ const SPLINE_SCENE_THREE = {
       "mesh": 3
     },
     {
-      "name": "Sphere 6",
+      "name": "Sphere 7",
       "translation": [
-        -190.1489615580661,
-        333.49999999999994,
+        -117.43132833319429,
+        326.5,
         17
       ],
       "rotation": [
@@ -257,7 +256,7 @@ const SPLINE_SCENE_THREE = {
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "F0411080-4A4F-410E-B1EC-0FF779129BC5",
+          "uuid": "33217ABE-AD0F-4305-BF6F-EE7BD502BD14",
           "type": "mesh_3d",
           "visible": true,
           "interaction": 4,
@@ -287,10 +286,10 @@ const SPLINE_SCENE_THREE = {
       "mesh": 4
     },
     {
-      "name": "Sphere 7",
+      "name": "Sphere 8",
       "translation": [
-        -117.43132833319429,
-        326.5,
+        -62.811881750136706,
+        333.49999999999994,
         17
       ],
       "rotation": [
@@ -306,7 +305,7 @@ const SPLINE_SCENE_THREE = {
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "33217ABE-AD0F-4305-BF6F-EE7BD502BD14",
+          "uuid": "12A899D6-0CBF-4276-8E2C-26879BACD4BC",
           "type": "mesh_3d",
           "visible": true,
           "interaction": 5,
@@ -336,10 +335,10 @@ const SPLINE_SCENE_THREE = {
       "mesh": 5
     },
     {
-      "name": "Sphere 8",
+      "name": "Sphere 9",
       "translation": [
-        -62.811881750136706,
-        333.49999999999994,
+        -35.359676955412226,
+        292.5,
         17
       ],
       "rotation": [
@@ -355,7 +354,7 @@ const SPLINE_SCENE_THREE = {
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "12A899D6-0CBF-4276-8E2C-26879BACD4BC",
+          "uuid": "DF319BF9-0206-40C0-AA49-55CCDB0D22E2",
           "type": "mesh_3d",
           "visible": true,
           "interaction": 6,
@@ -385,10 +384,10 @@ const SPLINE_SCENE_THREE = {
       "mesh": 6
     },
     {
-      "name": "Sphere 9",
+      "name": "Sphere 10",
       "translation": [
-        -35.359676955412226,
-        292.5,
+        -172.6489615580661,
+        326.5,
         17
       ],
       "rotation": [
@@ -404,7 +403,7 @@ const SPLINE_SCENE_THREE = {
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "DF319BF9-0206-40C0-AA49-55CCDB0D22E2",
+          "uuid": "E5FFD9F6-2831-4798-85A7-C0AD5C49589B",
           "type": "mesh_3d",
           "visible": true,
           "interaction": 7,
@@ -434,10 +433,10 @@ const SPLINE_SCENE_THREE = {
       "mesh": 7
     },
     {
-      "name": "Sphere 10",
+      "name": "Sphere 11",
       "translation": [
-        -172.6489615580661,
-        326.5,
+        -123.31188175013673,
+        -66.04597541635047,
         17
       ],
       "rotation": [
@@ -453,7 +452,7 @@ const SPLINE_SCENE_THREE = {
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "E5FFD9F6-2831-4798-85A7-C0AD5C49589B",
+          "uuid": "C1CB5FCA-499F-4925-AF6D-F777F8CC442E",
           "type": "mesh_3d",
           "visible": true,
           "interaction": 8,
@@ -483,10 +482,10 @@ const SPLINE_SCENE_THREE = {
       "mesh": 8
     },
     {
-      "name": "Sphere 11",
+      "name": "Sphere 12",
       "translation": [
-        -123.31188175013673,
-        -66.04597541635047,
+        -47.87661530039309,
+        326.5,
         17
       ],
       "rotation": [
@@ -502,7 +501,7 @@ const SPLINE_SCENE_THREE = {
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "C1CB5FCA-499F-4925-AF6D-F777F8CC442E",
+          "uuid": "22B5958F-0328-44C3-AE90-7A3B78A7EF44",
           "type": "mesh_3d",
           "visible": true,
           "interaction": 9,
@@ -532,10 +531,10 @@ const SPLINE_SCENE_THREE = {
       "mesh": 9
     },
     {
-      "name": "Sphere 12",
+      "name": "Sphere 13",
       "translation": [
-        -47.87661530039309,
-        326.5,
+        42.88684240419781,
+        333.49999999999994,
         17
       ],
       "rotation": [
@@ -551,7 +550,7 @@ const SPLINE_SCENE_THREE = {
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "22B5958F-0328-44C3-AE90-7A3B78A7EF44",
+          "uuid": "FDE423FC-919D-4B84-8960-CF1C465059BB",
           "type": "mesh_3d",
           "visible": true,
           "interaction": 10,
@@ -581,9 +580,9 @@ const SPLINE_SCENE_THREE = {
       "mesh": 10
     },
     {
-      "name": "Sphere 13",
+      "name": "Sphere 14",
       "translation": [
-        42.88684240419781,
+        -85.5942485252649,
         333.49999999999994,
         17
       ],
@@ -600,7 +599,7 @@ const SPLINE_SCENE_THREE = {
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "FDE423FC-919D-4B84-8960-CF1C465059BB",
+          "uuid": "1FC50AA5-E8AB-4EF5-BB18-A94EEBAFBD4E",
           "type": "mesh_3d",
           "visible": true,
           "interaction": 11,
@@ -630,9 +629,9 @@ const SPLINE_SCENE_THREE = {
       "mesh": 11
     },
     {
-      "name": "Sphere 14",
+      "name": "Sphere",
       "translation": [
-        -85.5942485252649,
+        -134.9313283331943,
         333.49999999999994,
         17
       ],
@@ -649,7 +648,7 @@ const SPLINE_SCENE_THREE = {
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "1FC50AA5-E8AB-4EF5-BB18-A94EEBAFBD4E",
+          "uuid": "DA5F8219-C307-4759-9A6F-0FAD108C7DFC",
           "type": "mesh_3d",
           "visible": true,
           "interaction": 12,
@@ -679,26 +678,26 @@ const SPLINE_SCENE_THREE = {
       "mesh": 12
     },
     {
-      "name": "Sphere",
+      "name": "Cylinder",
       "translation": [
-        -134.9313283331943,
-        333.49999999999994,
-        17
+        -93.89550264430329,
+        -106.60325141488477,
+        95.25770058715602
       ],
       "rotation": [
-        0,
-        0,
-        0,
-        1
+        -0.06718037030288923,
+        0.487332371561735,
+        0.003829849813821208,
+        0.8706200604881473
       ],
       "scale": [
-        1,
-        1,
-        1
+        1.000000000000063,
+        1.000000000000029,
+        1.000000000000088
       ],
       "extensions": {
         "SPE_node_3d": {
-          "uuid": "DA5F8219-C307-4759-9A6F-0FAD108C7DFC",
+          "uuid": "D723C168-7A6E-4076-9D08-C2715A945C2A",
           "type": "mesh_3d",
           "visible": true,
           "interaction": 13,
@@ -728,66 +727,17 @@ const SPLINE_SCENE_THREE = {
       "mesh": 13
     },
     {
-      "name": "Cylinder",
-      "translation": [
-        -93.89550264430329,
-        -106.60325141488477,
-        95.25770058715602
-      ],
-      "rotation": [
-        -0.06718037030288923,
-        0.487332371561735,
-        0.003829849813821208,
-        0.8706200604881473
-      ],
-      "scale": [
-        1.000000000000063,
-        1.000000000000029,
-        1.000000000000088
-      ],
-      "extensions": {
-        "SPE_node_3d": {
-          "uuid": "D723C168-7A6E-4076-9D08-C2715A945C2A",
-          "type": "mesh_3d",
-          "visible": true,
-          "interaction": 14,
-          "hiddenMatrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1
-          ],
-          "castShadow": true,
-          "receiveShadow": true,
-          "isCloner": false
-        }
-      },
-      "mesh": 14
-    },
-    {
       "name": "Default Camera",
       "camera": 0,
       "translation": [
-        -9.591308971120874e-9,
-        -2.309827289267213e-9,
+        -93.33333334370992,
+        -96.66666681561266,
         1000
       ],
       "rotation": [
-        -3.0616169978732505e-17,
-        0,
-        0,
+        -2.842170943040401e-17,
+        -4.263256414560601e-17,
+        -1.2116903504194742e-33,
         1
       ],
       "extensions": {
@@ -795,11 +745,11 @@ const SPLINE_SCENE_THREE = {
           "uuid": "9EFC0022-FA01-4AB3-A9FB-46F1D93FD8AE",
           "type": "camera",
           "visible": true,
-          "interaction": 15
+          "interaction": 14
         }
       },
       "children": [
-        18
+        17
       ]
     },
     {
@@ -863,8 +813,8 @@ const SPLINE_SCENE_THREE = {
     {
       "type": "orthographic",
       "orthographic": {
-        "xmag": 500,
-        "ymag": 500,
+        "xmag": 250,
+        "ymag": 400,
         "zfar": 50000,
         "znear": -50000
       },
@@ -1193,31 +1143,7 @@ const SPLINE_SCENE_THREE = {
       "extensions": {
         "SPE_primitive": {
           "parameters": {
-            "width": 35,
-            "widthSegments": 64,
-            "heightSegments": 64,
-            "phiStart": 0,
-            "phiLength": 6.283185307179586,
-            "thetaStart": 0,
-            "thetaLength": 3.141592653589793,
-            "height": 34,
-            "depth": 35
-          },
-          "type": "SphereGeometry"
-        },
-        "SPE_material": {
-          "indices": [
-            13
-          ]
-        }
-      }
-    },
-    {
-      "primitives": [],
-      "extensions": {
-        "SPE_primitive": {
-          "parameters": {
-            "width": 223,
+            "width": 200,
             "radialSegments": 64,
             "heightSegments": 1,
             "openEnded": false,
@@ -1226,16 +1152,16 @@ const SPLINE_SCENE_THREE = {
             "cornerRadius": 0,
             "cornerSegments": 8,
             "hollow": 0,
-            "height": 255,
-            "depth": 227,
-            "radiusTop": 111.5,
-            "radiusBottom": 111.5
+            "height": 225,
+            "depth": 200,
+            "radiusTop": 100,
+            "radiusBottom": 100
           },
           "type": "CylinderGeometry"
         },
         "SPE_material": {
           "indices": [
-            14
+            13
           ]
         }
       }
@@ -2330,89 +2256,6 @@ const SPLINE_SCENE_THREE = {
         "KHR_materials_common": {
           "technique": "BLINN",
           "ambient": [
-            0.34901960784313724,
-            0.34901960784313724,
-            0.34901960784313724
-          ],
-          "diffuse": [
-            0.34901960784313724,
-            0.34901960784313724,
-            0.34901960784313724
-          ],
-          "specular": [
-            0.06666666666666667,
-            0.06666666666666667,
-            0.06666666666666667
-          ],
-          "shininess": 30,
-          "emission": [
-            0,
-            0,
-            0
-          ]
-        },
-        "SPE_materials_options": {
-          "side": 0,
-          "wireframe": false,
-          "visible": true,
-          "shadingMode": 2
-        },
-        "SPE_materials_layers": {
-          "layers": [
-            {
-              "id": 0,
-              "type": "color",
-              "uniforms": {
-                "alpha": {
-                  "name": "alpha",
-                  "value": 1,
-                  "type": 1
-                },
-                "mode": {
-                  "name": "mode",
-                  "value": 0,
-                  "type": 1
-                },
-                "color": {
-                  "name": "color",
-                  "value": [
-                    0.34901960784313724,
-                    0.34901960784313724,
-                    0.34901960784313724
-                  ],
-                  "type": 6
-                }
-              }
-            },
-            {
-              "id": 1,
-              "type": "light",
-              "uniforms": {
-                "alpha": {
-                  "name": "alpha",
-                  "value": 1,
-                  "type": 1
-                },
-                "mode": {
-                  "name": "mode",
-                  "value": 0,
-                  "type": 1
-                }
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "",
-      "alphaMode": "BLEND",
-      "alphaCutoff": 1,
-      "doubleSided": false,
-      "extensions": {
-        "KHR_materials_common": {
-          "technique": "BLINN",
-          "ambient": [
             0.12941176470588237,
             0.34509803921568627,
             0.6901960784313725
@@ -2448,8 +2291,8 @@ const SPLINE_SCENE_THREE = {
               "uniforms": {
                 "alpha": {
                   "name": "alpha",
-                  "value": 0.5,
-                  "type": 2
+                  "value": 1,
+                  "type": 1
                 },
                 "mode": {
                   "name": "mode",
@@ -2500,22 +2343,22 @@ const SPLINE_SCENE_THREE = {
       "bgAlpha": 0,
       "orbitDamped": true,
       "orbitTarget": [
-        -9.591308971120874e-9,
-        -2.3098885216071704e-9,
-        -5.341178997831734e-58
+        -93.33333334370984,
+        -96.66666681561271,
+        -5.484e-321
       ],
       "cameraType": "OrthographicCamera",
       "cameraRotate": false,
       "cameraPan": false,
       "cameraZoom": false,
       "viewMode": 2,
-      "viewWidth": 500,
-      "viewHeight": 500,
-      "quality": "default"
+      "viewWidth": 250,
+      "viewHeight": 400,
+      "quality": "low"
     },
     "SPE_scene_options": {
       "camera": {
-        "mainCameraIndex": 16
+        "mainCameraIndex": 15
       },
       "postProcessing": {
         "enabled": false,
@@ -2623,7 +2466,6 @@ const SPLINE_SCENE_THREE = {
                     "velocity": 0
                   },
                   "repeat": true,
-                  "cycle": true,
                   "object": "39279A2F-2B30-482A-B0C9-2CBD3F41E208",
                   "state": "B71FC057-7B5D-4DA1-806A-48D658EDF8DB"
                 }
@@ -2648,7 +2490,7 @@ const SPLINE_SCENE_THREE = {
                 {
                   "easing": 0,
                   "duration": 3000,
-                  "delay": 10000,
+                  "delay": 1000,
                   "cubicControls": [
                     0.5,
                     0.05,
@@ -2662,48 +2504,8 @@ const SPLINE_SCENE_THREE = {
                     "velocity": 0
                   },
                   "repeat": true,
-                  "cycle": true,
                   "object": "C133C586-D383-4458-8645-2C7DEF00BC5D",
                   "state": "E35ED7DF-79DE-4851-B352-B7F4F52244DF"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "uuid": "51E1707B-6F0B-43CE-9D4A-56BA5D74875A",
-          "selectedState": 0,
-          "states": [
-            "4D1AD8C7-F3DB-4267-B69C-1ABB9C3EE492",
-            "41372489-3AD3-4286-899D-47CA2FDA945B"
-          ],
-          "events": [
-            {
-              "type": 7,
-              "ui": {
-                "isCollapsed": false
-              },
-              "targets": [
-                {
-                  "easing": 0,
-                  "duration": 3000,
-                  "delay": 11000,
-                  "cubicControls": [
-                    0.5,
-                    0.05,
-                    0.1,
-                    0.3
-                  ],
-                  "springParameters": {
-                    "mass": 1,
-                    "stiffness": 80,
-                    "damping": 10,
-                    "velocity": 0
-                  },
-                  "repeat": true,
-                  "cycle": true,
-                  "object": "5ACC62F3-4D23-4560-9AEC-CFDE67B3770D",
-                  "state": "41372489-3AD3-4286-899D-47CA2FDA945B"
                 }
               ]
             }
@@ -2726,7 +2528,7 @@ const SPLINE_SCENE_THREE = {
                 {
                   "easing": 0,
                   "duration": 3000,
-                  "delay": 11000,
+                  "delay": 2000,
                   "cubicControls": [
                     0.5,
                     0.05,
@@ -2740,7 +2542,6 @@ const SPLINE_SCENE_THREE = {
                     "velocity": 0
                   },
                   "repeat": true,
-                  "cycle": true,
                   "object": "B896C14D-1883-4D18-A6D3-2A8688F73F5A",
                   "state": "B8B56F1D-7778-464E-A783-C6A76891505D"
                 }
@@ -2765,7 +2566,7 @@ const SPLINE_SCENE_THREE = {
                 {
                   "easing": 0,
                   "duration": 3000,
-                  "delay": 12000,
+                  "delay": 3000,
                   "cubicControls": [
                     0.5,
                     0.05,
@@ -2779,7 +2580,6 @@ const SPLINE_SCENE_THREE = {
                     "velocity": 0
                   },
                   "repeat": true,
-                  "cycle": true,
                   "object": "F0411080-4A4F-410E-B1EC-0FF779129BC5",
                   "state": "5CD0CCD2-73FF-4D14-8469-A004E2D29361"
                 }
@@ -2804,7 +2604,7 @@ const SPLINE_SCENE_THREE = {
                 {
                   "easing": 4,
                   "duration": 3000,
-                  "delay": 13000,
+                  "delay": 4000,
                   "cubicControls": [
                     0.5,
                     0.05,
@@ -2818,7 +2618,6 @@ const SPLINE_SCENE_THREE = {
                     "velocity": 0
                   },
                   "repeat": true,
-                  "cycle": true,
                   "object": "33217ABE-AD0F-4305-BF6F-EE7BD502BD14",
                   "state": "1B102DAD-6F99-4783-A70F-889DFA0B5EE3"
                 }
@@ -2857,7 +2656,6 @@ const SPLINE_SCENE_THREE = {
                     "velocity": 0
                   },
                   "repeat": true,
-                  "cycle": true,
                   "object": "12A899D6-0CBF-4276-8E2C-26879BACD4BC",
                   "state": "89298CE5-85AC-491F-BC6E-03C4461C95F8"
                 }
@@ -2882,7 +2680,7 @@ const SPLINE_SCENE_THREE = {
                 {
                   "easing": 0,
                   "duration": 3000,
-                  "delay": 15000,
+                  "delay": 6000,
                   "cubicControls": [
                     0.5,
                     0.05,
@@ -2896,7 +2694,6 @@ const SPLINE_SCENE_THREE = {
                     "velocity": 0
                   },
                   "repeat": true,
-                  "cycle": true,
                   "object": "DF319BF9-0206-40C0-AA49-55CCDB0D22E2",
                   "state": "71372243-BA31-4F16-B7B4-730EC0F8A078"
                 }
@@ -2921,7 +2718,7 @@ const SPLINE_SCENE_THREE = {
                 {
                   "easing": 0,
                   "duration": 3000,
-                  "delay": 14000,
+                  "delay": 5000,
                   "cubicControls": [
                     0.5,
                     0.05,
@@ -2935,7 +2732,6 @@ const SPLINE_SCENE_THREE = {
                     "velocity": 0
                   },
                   "repeat": true,
-                  "cycle": true,
                   "object": "E5FFD9F6-2831-4798-85A7-C0AD5C49589B",
                   "state": "D2DE0185-C43F-4073-BEA0-6DA9636092E8"
                 }
@@ -2949,162 +2745,6 @@ const SPLINE_SCENE_THREE = {
           "states": [
             "FBC311DB-D040-4CAF-BCE8-1B6A683400F1",
             "2341A20A-5148-4ED2-BC26-FC86DCB04E3A"
-          ],
-          "events": [
-            {
-              "type": 7,
-              "ui": {
-                "isCollapsed": false
-              },
-              "targets": [
-                {
-                  "easing": 0,
-                  "duration": 3000,
-                  "delay": 15000,
-                  "cubicControls": [
-                    0.5,
-                    0.05,
-                    0.1,
-                    0.3
-                  ],
-                  "springParameters": {
-                    "mass": 1,
-                    "stiffness": 80,
-                    "damping": 10,
-                    "velocity": 0
-                  },
-                  "repeat": true,
-                  "cycle": true,
-                  "object": "C1CB5FCA-499F-4925-AF6D-F777F8CC442E",
-                  "state": "2341A20A-5148-4ED2-BC26-FC86DCB04E3A"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "uuid": "E1678F8E-3FE7-416A-B6D4-A1BF48CD7671",
-          "selectedState": 0,
-          "states": [
-            "2C37E558-3A3B-43B4-9BCF-FC415DC8EEDB",
-            "7F2E1CDA-5905-43AC-B656-854DDB4D880C"
-          ],
-          "events": [
-            {
-              "type": 7,
-              "ui": {
-                "isCollapsed": false
-              },
-              "targets": [
-                {
-                  "easing": 0,
-                  "duration": 3000,
-                  "delay": 16000,
-                  "cubicControls": [
-                    0.5,
-                    0.05,
-                    0.1,
-                    0.3
-                  ],
-                  "springParameters": {
-                    "mass": 1,
-                    "stiffness": 80,
-                    "damping": 10,
-                    "velocity": 0
-                  },
-                  "repeat": true,
-                  "cycle": true,
-                  "object": "22B5958F-0328-44C3-AE90-7A3B78A7EF44",
-                  "state": "7F2E1CDA-5905-43AC-B656-854DDB4D880C"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "uuid": "4E57BE00-F6FB-4D40-BC4E-211EFFD1AA5E",
-          "selectedState": 0,
-          "states": [
-            "2E1701D7-3633-4212-97E6-1D8EE30ED2EE",
-            "6D6785D7-8336-4E7B-AC19-425A439FF380"
-          ],
-          "events": [
-            {
-              "type": 7,
-              "ui": {
-                "isCollapsed": false
-              },
-              "targets": [
-                {
-                  "easing": 0,
-                  "duration": 3000,
-                  "delay": 17000,
-                  "cubicControls": [
-                    0.5,
-                    0.05,
-                    0.1,
-                    0.3
-                  ],
-                  "springParameters": {
-                    "mass": 1,
-                    "stiffness": 80,
-                    "damping": 10,
-                    "velocity": 0
-                  },
-                  "repeat": true,
-                  "cycle": true,
-                  "object": "FDE423FC-919D-4B84-8960-CF1C465059BB",
-                  "state": "6D6785D7-8336-4E7B-AC19-425A439FF380"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "uuid": "9E6E754F-2DD4-4B17-8588-ED1AA3BD45DC",
-          "selectedState": 0,
-          "states": [
-            "55C95B6C-8E95-4877-8D70-C13DC952272E",
-            "7EAD78AC-F793-4979-8194-0DB561EAACFD"
-          ],
-          "events": [
-            {
-              "type": 7,
-              "ui": {
-                "isCollapsed": false
-              },
-              "targets": [
-                {
-                  "easing": 0,
-                  "duration": 3000,
-                  "delay": 18000,
-                  "cubicControls": [
-                    0.5,
-                    0.05,
-                    0.1,
-                    0.3
-                  ],
-                  "springParameters": {
-                    "mass": 1,
-                    "stiffness": 80,
-                    "damping": 10,
-                    "velocity": 0
-                  },
-                  "repeat": true,
-                  "cycle": true,
-                  "object": "1FC50AA5-E8AB-4EF5-BB18-A94EEBAFBD4E",
-                  "state": "7EAD78AC-F793-4979-8194-0DB561EAACFD"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "uuid": "1EE03E5E-569A-4189-B5D5-A12D1D3CB3AB",
-          "selectedState": 0,
-          "states": [
-            "BADD4C00-9911-49D0-A66C-EAA379A5EECE",
-            "AC097DBB-24AC-4167-A15F-874C8B507A6E"
           ],
           "events": [
             {
@@ -3130,7 +2770,158 @@ const SPLINE_SCENE_THREE = {
                     "velocity": 0
                   },
                   "repeat": true,
-                  "cycle": true,
+                  "object": "C1CB5FCA-499F-4925-AF6D-F777F8CC442E",
+                  "state": "2341A20A-5148-4ED2-BC26-FC86DCB04E3A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "uuid": "E1678F8E-3FE7-416A-B6D4-A1BF48CD7671",
+          "selectedState": 0,
+          "states": [
+            "2C37E558-3A3B-43B4-9BCF-FC415DC8EEDB",
+            "7F2E1CDA-5905-43AC-B656-854DDB4D880C"
+          ],
+          "events": [
+            {
+              "type": 7,
+              "ui": {
+                "isCollapsed": false
+              },
+              "targets": [
+                {
+                  "easing": 0,
+                  "duration": 3000,
+                  "delay": 9000,
+                  "cubicControls": [
+                    0.5,
+                    0.05,
+                    0.1,
+                    0.3
+                  ],
+                  "springParameters": {
+                    "mass": 1,
+                    "stiffness": 80,
+                    "damping": 10,
+                    "velocity": 0
+                  },
+                  "repeat": true,
+                  "object": "22B5958F-0328-44C3-AE90-7A3B78A7EF44",
+                  "state": "7F2E1CDA-5905-43AC-B656-854DDB4D880C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "uuid": "4E57BE00-F6FB-4D40-BC4E-211EFFD1AA5E",
+          "selectedState": 0,
+          "states": [
+            "2E1701D7-3633-4212-97E6-1D8EE30ED2EE",
+            "6D6785D7-8336-4E7B-AC19-425A439FF380"
+          ],
+          "events": [
+            {
+              "type": 7,
+              "ui": {
+                "isCollapsed": false
+              },
+              "targets": [
+                {
+                  "easing": 0,
+                  "duration": 3000,
+                  "delay": 10000,
+                  "cubicControls": [
+                    0.5,
+                    0.05,
+                    0.1,
+                    0.3
+                  ],
+                  "springParameters": {
+                    "mass": 1,
+                    "stiffness": 80,
+                    "damping": 10,
+                    "velocity": 0
+                  },
+                  "repeat": true,
+                  "object": "FDE423FC-919D-4B84-8960-CF1C465059BB",
+                  "state": "6D6785D7-8336-4E7B-AC19-425A439FF380"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "uuid": "9E6E754F-2DD4-4B17-8588-ED1AA3BD45DC",
+          "selectedState": 0,
+          "states": [
+            "55C95B6C-8E95-4877-8D70-C13DC952272E",
+            "7EAD78AC-F793-4979-8194-0DB561EAACFD"
+          ],
+          "events": [
+            {
+              "type": 7,
+              "ui": {
+                "isCollapsed": false
+              },
+              "targets": [
+                {
+                  "easing": 0,
+                  "duration": 3000,
+                  "delay": 13000,
+                  "cubicControls": [
+                    0.5,
+                    0.05,
+                    0.1,
+                    0.3
+                  ],
+                  "springParameters": {
+                    "mass": 1,
+                    "stiffness": 80,
+                    "damping": 10,
+                    "velocity": 0
+                  },
+                  "repeat": true,
+                  "object": "1FC50AA5-E8AB-4EF5-BB18-A94EEBAFBD4E",
+                  "state": "7EAD78AC-F793-4979-8194-0DB561EAACFD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "uuid": "1EE03E5E-569A-4189-B5D5-A12D1D3CB3AB",
+          "selectedState": 0,
+          "states": [
+            "BADD4C00-9911-49D0-A66C-EAA379A5EECE",
+            "AC097DBB-24AC-4167-A15F-874C8B507A6E"
+          ],
+          "events": [
+            {
+              "type": 7,
+              "ui": {
+                "isCollapsed": false
+              },
+              "targets": [
+                {
+                  "easing": 0,
+                  "duration": 3000,
+                  "delay": 0,
+                  "cubicControls": [
+                    0.5,
+                    0.05,
+                    0.1,
+                    0.3
+                  ],
+                  "springParameters": {
+                    "mass": 1,
+                    "stiffness": 80,
+                    "damping": 10,
+                    "velocity": 0
+                  },
+                  "repeat": true,
                   "object": "DA5F8219-C307-4759-9A6F-0FAD108C7DFC",
                   "state": "AC097DBB-24AC-4167-A15F-874C8B507A6E"
                 }
@@ -3139,7 +2930,41 @@ const SPLINE_SCENE_THREE = {
           ]
         },
         {
-          "uuid": "F5C86521-1D66-4105-A4B0-CA3653CED71A"
+          "uuid": "F5C86521-1D66-4105-A4B0-CA3653CED71A",
+          "selectedState": 1,
+          "states": [
+            "2FB66EFF-3005-407D-8087-FD42B867DEE3",
+            "B4BC1CFB-29E4-4976-8279-8F4CD55D4BD1"
+          ],
+          "events": [
+            {
+              "type": 7,
+              "ui": {
+                "isCollapsed": false
+              },
+              "targets": [
+                {
+                  "easing": 4,
+                  "duration": 1000,
+                  "delay": 0,
+                  "cubicControls": [
+                    0.5,
+                    0.05,
+                    0.1,
+                    0.3
+                  ],
+                  "springParameters": {
+                    "mass": 1,
+                    "stiffness": 80,
+                    "damping": 10,
+                    "velocity": 0
+                  },
+                  "object": "D723C168-7A6E-4076-9D08-C2715A945C2A",
+                  "state": "B4BC1CFB-29E4-4976-8279-8F4CD55D4BD1"
+                }
+              ]
+            }
+          ]
         },
         {
           "uuid": "32AEA346-F4C0-4F92-B367-CF2D2FBFA728"
@@ -3381,158 +3206,6 @@ const SPLINE_SCENE_THREE = {
           "name": "State 1",
           "position": [
             -67.19675676334161,
-            -202.30533834622472,
-            17
-          ],
-          "rotation": [
-            0,
-            0,
-            0,
-            "XYZ"
-          ],
-          "scale": [
-            1,
-            1,
-            1
-          ],
-          "hiddenMatrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1
-          ],
-          "geometry": {
-            "width": 35,
-            "height": 34,
-            "depth": 35
-          },
-          "material": {
-            "layersList": [
-              {
-                "id": 0,
-                "type": "color",
-                "defines": {},
-                "uniforms": {
-                  "f0_alpha": {
-                    "value": 1
-                  },
-                  "f0_mode": {
-                    "value": 0
-                  },
-                  "f0_color": {
-                    "value": 5855577
-                  }
-                }
-              },
-              {
-                "id": 1,
-                "type": "light",
-                "defines": {},
-                "uniforms": {
-                  "f1_alpha": {
-                    "value": 1
-                  },
-                  "f1_mode": {
-                    "value": 0
-                  }
-                }
-              }
-            ]
-          }
-        },
-        "4D1AD8C7-F3DB-4267-B69C-1ABB9C3EE492": {
-          "uuid": "4D1AD8C7-F3DB-4267-B69C-1ABB9C3EE492",
-          "name": "Base State",
-          "position": [
-            -9.613157595802193,
-            333.49999999999994,
-            17
-          ],
-          "rotation": [
-            0,
-            0,
-            0,
-            "XYZ"
-          ],
-          "scale": [
-            1,
-            1,
-            1
-          ],
-          "hiddenMatrix": [
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1,
-            0,
-            0,
-            0,
-            0,
-            1
-          ],
-          "geometry": {
-            "width": 35,
-            "height": 34,
-            "depth": 35
-          },
-          "material": {
-            "layersList": [
-              {
-                "id": 0,
-                "type": "color",
-                "defines": {},
-                "uniforms": {
-                  "f0_alpha": {
-                    "value": 1
-                  },
-                  "f0_mode": {
-                    "value": 0
-                  },
-                  "f0_color": {
-                    "value": 5855577
-                  }
-                }
-              },
-              {
-                "id": 1,
-                "type": "light",
-                "defines": {},
-                "uniforms": {
-                  "f1_alpha": {
-                    "value": 1
-                  },
-                  "f1_mode": {
-                    "value": 0
-                  }
-                }
-              }
-            ]
-          }
-        },
-        "41372489-3AD3-4286-899D-47CA2FDA945B": {
-          "uuid": "41372489-3AD3-4286-899D-47CA2FDA945B",
-          "name": "State 1",
-          "position": [
-            -17.859676955412226,
             -202.30533834622472,
             17
           ],
@@ -5270,6 +4943,158 @@ const SPLINE_SCENE_THREE = {
                   },
                   "f1_mode": {
                     "value": 0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "2FB66EFF-3005-407D-8087-FD42B867DEE3": {
+          "uuid": "2FB66EFF-3005-407D-8087-FD42B867DEE3",
+          "name": "Base State",
+          "position": [
+            -93.89550264430329,
+            -106.60325141488477,
+            95.25770058715602
+          ],
+          "rotation": [
+            -0.229806762742932,
+            1.0122909661567112,
+            0.13657135771304063,
+            "XYZ"
+          ],
+          "scale": [
+            1.000000000000063,
+            1.000000000000029,
+            1.000000000000088
+          ],
+          "hiddenMatrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "width": 200,
+            "height": 225,
+            "depth": 200
+          },
+          "material": {
+            "layersList": [
+              {
+                "id": 0,
+                "type": "color",
+                "defines": {},
+                "uniforms": {
+                  "f0_alpha": {
+                    "value": 1
+                  },
+                  "f0_mode": {
+                    "value": 0
+                  },
+                  "f0_color": {
+                    "value": 2185392
+                  }
+                }
+              },
+              {
+                "id": 1,
+                "type": "light",
+                "defines": {},
+                "uniforms": {
+                  "f1_alpha": {
+                    "value": 1
+                  },
+                  "f1_mode": {
+                    "value": "0"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "B4BC1CFB-29E4-4976-8279-8F4CD55D4BD1": {
+          "uuid": "B4BC1CFB-29E4-4976-8279-8F4CD55D4BD1",
+          "name": "State 1",
+          "position": [
+            -93.89550264430329,
+            -106.60325141488477,
+            95.25770058715602
+          ],
+          "rotation": [
+            -0.229806762742932,
+            1.0122909661567112,
+            0.13657135771304063,
+            "XYZ"
+          ],
+          "scale": [
+            1.000000000000063,
+            1.000000000000029,
+            1.000000000000088
+          ],
+          "hiddenMatrix": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "geometry": {
+            "width": 200,
+            "height": 225,
+            "depth": 200
+          },
+          "material": {
+            "layersList": [
+              {
+                "id": 0,
+                "type": "color",
+                "defines": {},
+                "uniforms": {
+                  "f0_alpha": {
+                    "value": 1
+                  },
+                  "f0_mode": {
+                    "value": 0
+                  },
+                  "f0_color": {
+                    "value": 2185392
+                  }
+                }
+              },
+              {
+                "id": 1,
+                "type": "light",
+                "defines": {},
+                "uniforms": {
+                  "f1_alpha": {
+                    "value": 1
+                  },
+                  "f1_mode": {
+                    "value": "0"
                   }
                 }
               }
