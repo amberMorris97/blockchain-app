@@ -49,12 +49,6 @@ const Blockchain = () => {
               {block.next_block}
             </span>
             <br />
-            <span>
-              <h6>
-                This Block Was Added On:
-              </h6>
-              {moment(block.time).format('MMMM Do YYYY, h:mm:ss a')}
-            </span>
           </div>
         </Modal>
         <p>

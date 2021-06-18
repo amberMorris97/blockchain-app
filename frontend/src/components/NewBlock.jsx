@@ -29,7 +29,7 @@ const NewBlock = () => (
         <a href="#">Mining</a>
         <br />
         <br />
-        I made this website to help some friends understand the technology as well as explore it more myself. Please visit the top of the page and consider donating and/or submitting organizations you're passionate about. Also, I'm looking for a job.
+        I made this website to help some friends understand the technology as well as explore it more myself. Please visit the top of the page and consider donating and/or submitting organizations you are passionate about. Also, I am looking for a job.
       </p>
     </div>
   </div>
