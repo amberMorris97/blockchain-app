@@ -115,21 +115,37 @@ body {
 .newBlock-page p {
   width: 50vw;
 }
+.modal {
+  position: fixed;
+  width: 50vw;
+  height: 50vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 50px;
+  border-radius: 25px;
+  z-index: 1000;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.9);
+}
 
 @media only screen and (max-width: 600px) {
   #header {
     display: none;
   }
-  canvas {
-  	display: none;
-  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    #header {
 
-    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

@@ -1,7 +1,10 @@
-const { FETCH_BLOCKS, FETCH_LATEST, FETCH_MINING, FETCH_TRA } = require('../types');
+const {
+  FETCH_BLOCKS, FETCH_LATEST, FETCH_MINING, FETCH_TRA, FETCH_SINGLE_BLOCK,
+} = require('../types');
 
 const initialState = {
   blockchain: {},
+  block: {},
   latestBlock: {},
   mining: {},
   transactions: {},
@@ -12,16 +15,17 @@ const blockDataReducer = (state = initialState, action) => {
     case FETCH_BLOCKS: {
       return {
         ...state,
-      }
+        blockchain: action.payload,
+      };
     }
-    case FETCH_TRA: {
+    case FETCH_SINGLE_BLOCK: {
       return {
         ...state,
-        transactions: action.payload.transactions,
+        block: action.payload,
       };
     }
     default: {
-      return state
+      return state;
     }
   }
 };

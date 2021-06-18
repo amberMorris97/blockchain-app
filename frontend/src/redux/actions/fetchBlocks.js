@@ -1,16 +1,24 @@
-import React from 'react';
 const axios = require('axios');
+const { FETCH_BLOCKS, FETCH_SINGLE_BLOCK } = require('../types');
 
-const fetchBlocks = () => {
-  return  (dispatch) => {
-    axios.get('/blockchain.info/blocks')
-      .then((res) => {
-        console.log(res.data)
-      })
-      .catch((err) => {
-        console.log(err)
-      });
-  };
+const fetchBlocks = () => (dispatch) => {
+  axios.get('/getBlocks')
+    .then((res) => {
+      dispatch({ type: FETCH_BLOCKS, payload: res.data.slice(20) });
+    })
+    .catch((err) => {
+      throw err;
+    });
 };
 
-export default fetchBlocks;
+const fetchSingleBlock = (hash) => (dispatch) => {
+  axios.get(`/getSingleBlock/${hash}`)
+    .then((res) => {
+      dispatch({ type: FETCH_SINGLE_BLOCK, payload: res.data });
+    })
+    .catch((err) => {
+      throw err;
+    });
+};
+
+module.exports = { fetchBlocks, fetchSingleBlock };
